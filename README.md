@@ -11,7 +11,7 @@ Unfortunately, the designs were already in finalized when this was brought to my
 The Available Ratios
 ------------
 
-For use with this project, three (*tres*) Mixins were created available:
+For use with this project, three ( *tres* ) Mixins were created available:
 
 * 1:1.618 - "Golden Ratio" AKA "Phi"
 * 1:1.437 - Silver or Root 2 Rectangle
@@ -20,7 +20,7 @@ For use with this project, three (*tres*) Mixins were created available:
 How this ol' thing works
 ------------
 
-All of the mixins accept a dimension param and return a class with a calculated width or height dimension, depending on the namespace you use ('#make-width' and '#make-height', respectively). Basically, you pass a the value you already know, and choose the mixin based on the expected return value being either the "1" proportion, or the other side.
+All of the mixins accept a dimension param and return a class with a calculated width or height dimension, depending on the namespace you use (`#make-width` and `#make-height`, respectively). Basically, you pass a the value you already know, and choose the mixin based on the expected return value being either the "1" proportion, or the other side.
 
 Example: Known width, make me a height
 ------------
