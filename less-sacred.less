@@ -1,0 +1,29 @@
+//\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//
+/* Sacred Geometry Dimensions and Ratios */
+//\/\/\//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\//
+
+#make-height {
+
+  .1-437 (@width) {height: ceil(@width * 1.437); }
+  .1-437-shorter (@width)   { height : ceil(@width * (1/1.437) ); }
+  
+  .2-2 (@width) {height: ceil(@width * 2.2); }
+  .2-2-shorter (@width)   { height : ceil(@width * (1/2.2) ); }
+
+  .1-618 (@width)   { height : ceil(@width * 1.618); }
+  .1-618-shorter (@width)   { height : ceil(@width * (1/1.618) ); }
+
+}
+
+#make-width {
+
+  .1-437 (@height) { width : ceil(@height * 1.437); }
+  .1-437-shorter (@height)   { width : ceil(@height * (1/1.437) ); }
+  
+  .2-2 (@height)   { width : ceil(@height * 2.2); }
+  .2-2-shorter (@height)   { width : ceil(@height * (1/2.2) ); }  
+
+  .1-618 (@height)   { width : ceil(@height * 1.618); }
+  .1-618-shorter (@height)   { width : ceil(@height * (1/1.618) ); }
+
+}
